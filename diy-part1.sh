@@ -26,3 +26,4 @@ git clone https://github.com/li-xunhuan/OpenClash.git package/ysy/openclash
 #git clone https://github.com/tty228/luci-app-serverchan.git package/ysy/luci-app-serverchan
 #git clone https://github.com/project-openwrt/FileBrowser.git package/ysy/FileBrowser
 #git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/ysy/luci-app-koolproxyR
+#git clone git clone https://github.com/maxlicheng/luci-app-unblockmusic.git package/ysy/luci-app-unblockmusic
