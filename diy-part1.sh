@@ -10,11 +10,19 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#取消默认的主题
+#sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
-git clone https://github.com/li-xunhuan/OpenClash.git package/lean/openclash
+# add luci -app-
+git clone https://github.com/destan19/OpenAppFilter.git package/ysy/OpenAppFilter
+git clone https://github.com/li-xunhuan/OpenClash.git package/ysy/openclash
+#git clone https://github.com/ElonH/Rclone-OpenWrt.git package/ysy/Rclone-OpenWrt
+#git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic package/ysy/luci-app-unblockneteasemusic
+#git clone https://github.com/tty228/luci-app-serverchan.git package/ysy/luci-app-serverchan
+#git clone https://github.com/project-openwrt/FileBrowser.git package/ysy/FileBrowser
+#git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/ysy/luci-app-koolproxyR
