@@ -21,6 +21,8 @@ sed -i '$a src-git kenzok8 https://github.com/kenzok8/openwrt-packages' feeds.co
 # add luci -app-
 git clone https://github.com/destan19/OpenAppFilter.git package/ysy/OpenAppFilter
 git clone https://github.com/li-xunhuan/OpenClash.git package/ysy/openclash
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk package/ysy/MentoHUST-OpenWrt
+git clone https://github.com/BoringCat/luci-app-mentohust.git package/ysy/luci-app-mentohust
 #git clone https://github.com/ElonH/Rclone-OpenWrt.git package/ysy/Rclone-OpenWrt
 #git clone https://github.com/project-openwrt/luci-app-unblockneteasemusic package/ysy/luci-app-unblockneteasemusic
 #git clone https://github.com/tty228/luci-app-serverchan.git package/ysy/luci-app-serverchan
